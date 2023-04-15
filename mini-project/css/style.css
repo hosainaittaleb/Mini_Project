@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+section{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  position: relative;
+  max-width: 170px;
+  right: 100px;
+  bottom: 20px;
+}
+header ul{
+  position: relative;
+  display: flex;
+  left: 50px;
+  bottom: 20px;
+}
+header ul li {
+  list-style: none;
+}
+header ul li a {
+  display: inline-block;
+  color: #333;
+  font-weight: 400;
+  margin-left: 40px;
+  text-decoration: none;
+  padding: 3px 17px;
+  border-radius: 15px;
+}
+header ul li a:hover {
+  transform: scale(1.2);
+  border: 1px solid #f5dca8;
+  background: transparent;
+  color: white;
+  transition: .4s;
+}
+.content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .textbox {
+  position: relative;
+  max-width: 600px;
+}
+.content .textbox h2{
+  color: #333;
+  font-size: 2em;
+  line-height: 1.4em;
+  font-weight: 400;
+  left: 30px;
+  position: relative;
+}
+.content .textbox h2 span {
+  color:  #363062;
+  font-size: 1.2em;
+  font-weight: 900;
+}
+.content .textbox p {
+  color: #333;
+  left: 30px;
+  position: relative;
+}
+.content .textbox a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  background: white;
+  border: 1px solid white;
+  padding: 9px 25px;
+  line-height: 1.4;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  left: 25px;
+  position: relative;
+}
+.content .textbox a:hover{
+  transform: scale(1.2);
+  border: 1px solid #f5dca8;
+  background: transparent;
+  color: white;
+  transition: .4s;
+}
+.site{
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  background: #ABACE0;
+  position: relative;
+  background: linear-gradient(90deg, rgba(79,197,232,1) 0%, rgba(140,208,222,0.43043154761904767) 35%, rgba(70,0,255,0.4892550770308123) 100%);
+}
+
+
+
